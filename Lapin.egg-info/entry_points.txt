@@ -1,0 +1,10 @@
+
+        [paste.paster_command]
+        lapin_start = lapin.command:StartCommand
+        
+        [paste.global_paster_command]
+        lapin_start = lapin.command:StartCommand
+        
+        [paste.paster_create_template]
+        lapin_template = lapin.pastetemplate:LapinTemplate
+        

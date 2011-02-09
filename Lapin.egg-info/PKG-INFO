@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: Lapin
+Version: 0.01a1
+Summary: A flask-based web framework
+Home-page: http://lapin.sys2do.com
+Author: CL.Lam
+Author-email: lamciuloeng@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: Lapin PYthon Framework
+Platform: UNKNOWN
