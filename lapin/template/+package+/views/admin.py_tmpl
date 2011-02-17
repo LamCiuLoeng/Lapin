@@ -6,3 +6,7 @@ from flask import g, render_template, flash, session, redirect, url_for, request
 def index():
     app.logger.debug('A value for debugging')
     return render_template("index.html")
+    
+def users():
+	app.logger.debug('A value for debugging')
+    return render_template("users.html")
