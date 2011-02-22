@@ -10,3 +10,8 @@ def index():
 def users():
 	app.logger.debug('A value for debugging')
     return render_template("users.html")
+    
+    
+def groups():
+	app.logger.debug('A value for debugging')
+    return render_template("groups.html")
