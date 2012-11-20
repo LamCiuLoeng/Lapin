@@ -1,2 +1,5 @@
 flask>=0.6
 PasteScript>=1.7
+Beaker>=1.6.4
+Flask-Beaker>=0.1
+Sqlalchemy>=0.6
