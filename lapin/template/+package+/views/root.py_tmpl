@@ -3,6 +3,7 @@ from flask import current_app as app
 from flask import g, render_template, flash, session, redirect, url_for, request
 from flask.blueprints import Blueprint
 
+from ${package}.views import BasicView
 from ${package}.util.decorator import templated
 
 __all__ = ['bpRoot']
@@ -12,7 +13,7 @@ bpRoot = Blueprint('bpRoot', __name__)
 class RootView(BasicView):
     
     @templated("index.html")
-    def index():
+    def index(self):
         return {}
 	    
 	    
