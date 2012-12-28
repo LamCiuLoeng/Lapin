@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link href="static/css/bootstrap.css" rel="stylesheet">
+<meta charset="utf-8">
+<link href="{{url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
  <style type="text/css">
       body {
         padding-top: 60px;
@@ -10,7 +11,7 @@
     </style>
 <link href="static/css/bootstrap-responsive.min.css__" rel="stylesheet">
 <script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="static/js/bootstrap.min.js"></script>
+<script src="{{url_for('static', filename='js/bootstrap.min.js')}}" type="text/javascript"></script>
 </head>
 
 <body>

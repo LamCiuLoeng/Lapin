@@ -10,7 +10,8 @@ def templated(template = None):
         def decorated_function(*args, **kwargs):
             template_name = template
             if template_name is None:
-                template_name = request.endpoint.replace('.', '/') + '.html'
+                #template_name = request.endpoint.replace('.', '/') + '.html'
+                template_name = "%s.html" % f.__name__
 
             ctx = f(*args, **kwargs)
             if ctx is None:
