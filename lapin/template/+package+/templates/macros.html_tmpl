@@ -1,10 +1,10 @@
 {% macro mypaginate(records) -%}
-	{{records.pager(format='$link_first $link_previous ~3~ $link_next $link_last, total $item_count records(s)',
-					show_if_single_page=True,
-					symbol_first='First',
-					symbol_last='Last',
-					symbol_previous='Previous',
-					symbol_next='Next')}}
+    {{records.pager(format='$link_first $link_previous ~3~ $link_next $link_last, total $item_count records(s)',
+                    show_if_single_page=True,
+                    symbol_first='First',
+                    symbol_last='Last',
+                    symbol_previous='Previous',
+                    symbol_next='Next')}}
 {%- endmacro %}
 
 
